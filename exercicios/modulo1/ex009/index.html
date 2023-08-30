@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        ol#sublista1, #sublista2 {
+            list-style-type: lower-alpha;
+        }
+        ul#ul1, #ul2, #ul3 {
+            list-style-type: square;
+        }
+        ul#ul1-1 {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol><!-- 1 A a I i -->
+        <li>Acordar
+        <li>Ligar para o João
+        <li>Tomar Café
+        <li>Escovar os dente
+        <li>Ir para o trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Dormir
+    </ol>
+    <h2>Listas não Ordenadas</h2> 
+    <ul> <!-- disc square circle -->
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Alface
+        <li>Manteiga
+        <li>Arroz
+        <li>Feijão
+    </ul>
+    <h2>Minhas linguagens favoritas:</h2>
+    <ol>
+        <li>Antigas
+            <ol id="sublista1">
+                <li>Clipper
+                <li>Visual Basic
+                <li>Fortran
+                <li>Delphi
+            </ol>
+        <li>Novas
+            <ol id="sublista2" start="5">
+                <li>PHP
+                <li>Python
+                <li>JavaScript
+                <li>Kotlin
+            </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES
+            <ul id="ul1">
+                <li>Mario Bros
+                    <ul id="ul1-1">
+                        <li>Mario Bros 3</li>
+                        <li>Mario: Lost Levels</li>
+                    </ul>
+                <li>Ninja Gaiden
+            </ul>
+        <li>SNES
+            <ul id="ul2">
+                <li>Mario
+                <li>Donkey Kong
+            </ul>
+        <li>PlayStation
+            <ul id="ul3">
+                <li>Final Fantasy
+                <li>Castlevania
+            </ul>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
+    </dl>
+
+    <hr>
+    
+    <h2>LISTA DOS MEUS JOGOS FAVORITOS</h2>
+    <ul id="uljf">
+        <li>Nitendinho</li>
+        <ol>
+            <li>Mario Bros</li>
+            <ul id="uln1">
+                <li>Super Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Garden</li>
+            <ul id="uln2">
+                <li>Ninja Gaiden III</li>
+            </ul>
+        </ol>
+        <li>Super Nitendo</li>
+        <ol>
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+            <ul id="uln3">
+                <li>Donkey Kong Country III</li>
+                <li>Diddy's Kong Quest</li>
+            </ul>
+        </ol>
+        <li>PlayStation 1</li>
+        <ol>
+            <li>Final Fantasy</li>
+            <ul id="uln4">
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
+            <li>Castlevania</li>
+            <ul id="uln5">
+                <li>Simphony of the Night</li>
+            </ul>
+        </ol>
+    </ul>
+</html>
