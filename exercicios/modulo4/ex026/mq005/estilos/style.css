@@ -20,3 +20,7 @@ main {
 li {
     display: inline-block;
 }
+
+article {
+    background-color: blue;
+}
