@@ -37,7 +37,7 @@ i#burguer:hover {
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav > ul {
